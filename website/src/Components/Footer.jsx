@@ -63,8 +63,8 @@ import {
   export default function Footer() {
     return (
       <Box
-        bg={useColorModeValue('gray.50', 'gray.900')}
-        color={useColorModeValue('gray.700', 'gray.200')}>
+        bg={useColorModeValue('gray.800', 'gray.900')}
+        color={useColorModeValue('gray.700', 'gray.200')} w='90%' m='auto' mt='8' rounded='lg' color='white'>
         <Container
           as={Stack}
           maxW={'6xl'}
@@ -87,6 +87,7 @@ import {
             </SocialButton>
           </Stack>
         </Container>
+        
       </Box>
     );
   }

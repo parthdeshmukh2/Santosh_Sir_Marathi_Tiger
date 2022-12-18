@@ -5,7 +5,7 @@ import MainRoutes from './Pages/MainRoutes';
 
 function App() {
   return (
-    <Box>
+    <Box className='App'>
       <MainRoutes/>
 
     </Box>
